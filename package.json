@@ -1,0 +1,22 @@
+{
+  "name": "svg-play-time",
+  "version": "0.1.0",
+  "description": "a place to build and test SVG animation",
+  "main": "server.js",
+  "scripts": {
+    "dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Stilwell",
+  "license": "WTFPL",
+  "dependencies": {
+    "express": "^4.12.3",
+    "hbs": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-less": "^3.0.3",
+    "gulp-nodemon": "^2.0.3",
+    "require-dir": "^0.3.0"
+  }
+}
